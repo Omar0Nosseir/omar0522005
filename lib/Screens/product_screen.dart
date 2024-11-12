@@ -11,7 +11,7 @@ class ProductScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar(//
         title: Center(child: Text("Products")),),
       body: Consumer<ProductProvider>(
         builder: (context, value, child) {
